@@ -29,7 +29,7 @@ export default async function ProjectPage({ params }) {
         <p>{project.summary}</p>
       </header>
       <div className={`project-image case-image project-image-${project.slug}`}>
-        <Image src={project.image} alt={project.imageAlt} fill sizes="(max-width: 1270px) 100vw, 1200px" preload />
+        {/* <Image src={project.image} alt={project.imageAlt} fill sizes="(max-width: 1270px) 100vw, 1200px" preload /> */}
       </div>
       <div className="case-body">
         <section>

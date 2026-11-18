@@ -24,7 +24,7 @@ export default function Portfolio() {
       <section className="hero" aria-labelledby="intro-title">
         <div className="hero-copy">
           <p className="eyebrow"><span className="accent-line" />{profile.role}</p>
-          <h1 id="intro-title">I build for<br /><em>the web.</em></h1>
+          <h1 id="intro-title">Allysseus Durban<br /><em>the goat</em></h1>
           <p className="hero-description">Hi, I’m {profile.name}. {profile.intro}</p>
           <div className="hero-links">
             <a className="button primary" href="#work">
